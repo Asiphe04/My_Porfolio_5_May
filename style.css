@@ -1,0 +1,61 @@
+
+#About-section{height: 850px;}
+#landing-section{height: 695px;}
+#landing-image{height: 350px;
+width: 1250px;}
+#signature{width: 30px;
+margin: 5px;
+}
+#contactForm{height: 600px;}
+.img-front{width: 500px;
+height: 400px;}
+#flipcard-col{height: 500px;}
+
+
+
+.flipcard {
+     width: 40%; 
+   
+    perspective: 1000px;
+  }
+  
+  .flipcard-inner {
+    position: relative;
+    transition: transform 0.6s; 
+    transform-style: preserve-3d; 
+  }
+  
+  .flipcard-front, .flipcard-back {
+    font-family: sans-serif;
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    backface-visibility: hidden; 
+  }
+
+  .flipcard-back {
+   
+   
+    transform: rotateY(180deg); 
+  }
+  .flipcard-back p{ max-width: 100%;;}
+  .flipcard:hover .flipcard-inner {
+    transform: rotateY(180deg); 
+  }  
+  
+  svg{width: 40px;
+height: 40px;}
+/* Footer */
+.footer-container {
+    background-color: #343a40;
+    color: #f8f9fa;
+  }
+  
+  .footer-container a {
+    color: #f8f9fa;
+    margin: 5px;
+    padding: 5px;
+    font-size: x-large !important;
+  }
+
+  
